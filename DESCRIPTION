@@ -6,6 +6,12 @@ Author: J. Maier
 Maintainer: J. Maier <jmaier.1782@gmail.com>
 Description: A series of function to read in, summarize, and plot
     accident data from the Fatality Analysis Reporting System.
+Depends:
+   dplyr(== 1.0.7)
+Imports:
+   dplyr,
+   magrittr,
+   tidyr
 License: GPL-3
 Encoding: UTF-8
 LazyData: true
